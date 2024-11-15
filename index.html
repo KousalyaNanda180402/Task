@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Selection</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div style="text-align: center; border-style: solid;margin-left: 35%;margin-right: 35%;padding: 15px;">
+    <!-- 1 Unit Option -->
+    <div class="option" >
+      <label>
+        <input type="radio" name="unit" value="1" onclick="toggleOptions(1)">
+        <span class="option-content"> box 1</span>
+      </label>
+      <div class="additional-options" id="additional-options-1">
+        <div class ="dropdowns">
+          <select>
+            <option>Size</option>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+          <select>
+            <option>Colour</option>
+            <option>Black</option>
+            <option>White</option>
+            <option>Blue</option>
+         </select>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+    <!-- 2 Unit Option (Most Popular) -->
+  <div style="text-align: center; border-style: solid;margin-left: 35%;margin-right: 35%;padding: 15px;">
+    <div class="option">
+      <label>
+        <input type="radio" name="unit" value="2" onclick="toggleOptions(2)">
+        <span class="option-content">box 2</span>
+      </label>
+      <div class="additional-options" id="additional-options-2">
+        <div class="dropdowns">
+          <div>
+            <select>
+              <option>Size</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <select>
+              <option>Colour</option>
+              <option>Black</option>
+              <option>White</option>
+              <option>Blue</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- 3 Unit Option -->
+  <div style="text-align: center; border-style: solid;margin-left: 35%;margin-right: 35%; padding: 15px;">
+    <div class="option">
+      <label>
+        <input type="radio" name="unit" value="3" onclick="toggleOptions(3)" style="border-left: 50%">
+        <span class="option-content">box 3</span>
+      </label>
+      <div class="additional-options" id="additional-options-3">
+      <div>
+        <select>
+          <option>Size</option>
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+        </select>
+        <select>
+          <option>Colour</option>
+          <option>Black</option>
+          <option>White</option>
+          <option>Blue</option>
+        </select>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Total and Add to Cart -->
+
+
+  <script src="script.js"></script>
+</body>
+</html>
